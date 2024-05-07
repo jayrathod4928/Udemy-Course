@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*body {*/
+/*    margin: 0;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    -webkit-font-smoothing: antialiased;*/
+/*    -moz-osx-font-smoothing: grayscale;*/
+/*    background: linear-gradient(#dfdee0, #c3c3c4);*/
+/*    color: #e5d9f1;*/
+/*    min-height: 100vh;*/
+/*}*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*.card {*/
+/*    margin: 2rem auto;*/
+/*    padding: 2rem;*/
+/*    max-width: 30rem;*/
+/*    border-radius: 6px;*/
+/*    background: linear-gradient(#254041, #203031);*/
+/*    box-shadow: 0 0 8px rgba(0,0,0,0.3);*/
+/*}*/
 
-.App-link {
-  color: #61dafb;
-}
+/*.card h2 {*/
+/*    margin: 0;*/
+/*    font-family: 'Lato', sans-serif;*/
+/*    font-weight: bold;*/
+/*    font-size: 1.5rem;*/
+/*    color: #e5d9f1;*/
+/*}*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*.card p {*/
+/*    margin: 0.5rem 0;*/
+/*}*/
+
+/*.card a {*/
+/*    color: #b3f4f6;*/
+/*    text-decoration: none;*/
+/*}*/
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 3rem;
+    background-color: #2d2c2c;
+    color: #959090;
 }
