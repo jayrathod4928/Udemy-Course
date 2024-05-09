@@ -10,7 +10,7 @@ for (const turn of turns){
     const { square, player }=  turn;
     const { row , col } = square;
 
-    gameBoard [row] [col] = player;
+    gameBoard[row][col] = player;
 }
 
     // const [gameBoard, setGameBoard] = useState(initialGameBoard);
@@ -32,5 +32,7 @@ for (const turn of turns){
                     </li>)}
                 </ol>
             </li>))}
+{/* Resolving deltas: 100% (61/61), done. */}
+        
         </ol>);
 }
